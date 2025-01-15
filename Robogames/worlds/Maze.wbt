@@ -6,14 +6,13 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Roughcast.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/SolarCell.proto"
+EXTERNPROTO "../protos/E-puck.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
-  position 3.2995784156156686e-16 -3.0933547646396893e-17 5.943992049218584
+  orientation -0.5595493689006014 0.5651731610034896 0.6062044224882084 2.0427727645159277
+  position 1.0893622276963348 -1.098690120643041 1.4531809062687655
 }
 TexturedBackground {
 }
@@ -361,23 +360,6 @@ DEF red Wall {
     }
   }
 }
-DEF maze_solver E-puck {
-  hidden position_0_0 80.04405019419781
-  hidden position_0_1 87.95710539403908
-  hidden linearVelocity_0 0.04206836318270239 0.010345111735927377 2.8355281744066615e-06
-  hidden angularVelocity_0 -0.0011897321249427144 0.005472207399789524 0.09086700468727009
-  hidden translation_1 0 0.02600000000000002 0.02
-  hidden rotation_1 0 1 0 4.645826508042771
-  hidden linearVelocity_1 0.03977265005652519 0.009913159267222853 -3.080118613936966e-06
-  hidden angularVelocity_1 -0.4937064591401549 2.6385626267064346 0.09283605047980023
-  hidden translation_2 0 -0.025999999999999985 0.02
-  hidden rotation_2 0 -1 0 0.0074889064751243
-  hidden linearVelocity_2 0.044423627833690846 0.010785455548095076 6.812656729149679e-06
-  hidden angularVelocity_2 -0.5411590721115802 2.8926458223176725 0.09325353207841101
-  translation 0.10315282066525629 0.2087246477570568 -5.761921840155733e-05
-  rotation 0.001933518938294801 -0.015867423436843785 0.9998722350270515 0.18639346238951415
-  name "e-puck(1)"
-}
 DEF brown Wall {
   translation 0.94 -0.25 -5.0207e-06
   rotation -0.0029631517717194624 0.8228724920096309 -0.5682183397475287 6.47287e-06
@@ -391,37 +373,10 @@ DEF brown Wall {
   }
 }
 E-puck {
-  hidden position_0_0 2659.4735580450724
-  hidden position_0_1 4460.564207755966
-  hidden linearVelocity_0 0.0390261946097503 -0.040151625878476115 5.139104004285854e-06
-  hidden angularVelocity_0 -0.003873269119902019 -0.0037897605948535047 0.10664924831946275
-  hidden translation_1 0 0.025999999999999968 0.02
-  hidden rotation_1 0 -1 0 4.5970121990722435
-  hidden linearVelocity_1 0.03708504868015141 -0.038133612750464556 5.772862983244524e-06
-  hidden angularVelocity_1 1.8971637074648617 1.8267442931556344 0.10799955927774256
-  hidden translation_2 0 -0.026 0.02
-  hidden rotation_2 0 -1 0 0.49736034154041775
-  hidden linearVelocity_2 0.040929135608362935 -0.04212703860231394 4.406622933306146e-06
-  hidden angularVelocity_2 2.1157387617039265 2.0369968770290527 0.10824794435868018
-  translation 0.17670633979084932 0.2028252077437882 -6.0302232651304397e-05
-  rotation -0.001289450082063521 -0.0031864257741661428 0.9999940919871835 -0.8022405106923634
-  controllerArgs [
-    ""
-  ]
-}
-Solid {
-  translation 0.805178929735838 0.22464256407313046 0.049178159361821024
-  rotation -0.6654981918971664 -0.3272664367265586 0.6708269791637064 -3.0470520197437585
-  children [
-    DEF Ball Shape {
-      appearance SolarCell {
-      }
-      geometry Sphere {
-        radius 0.05
-      }
-    }
-  ]
-  boundingObject USE Ball
-  physics Physics {
-  }
+  hidden position_0_0 239.1713339897263
+  hidden position_0_1 189.05258129576896
+  hidden rotation_2 0 1 0 0.5570220803813656
+  translation 1.1245300000000606 -0.8771910000000334 -6.39619957882448e-05
+  rotation 0 0 1 -1.552685307179586
+  controller "finalocde"
 }
