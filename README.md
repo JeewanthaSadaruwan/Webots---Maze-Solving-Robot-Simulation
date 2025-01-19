@@ -1,4 +1,4 @@
-![vscode interface](https://github.com/user-attachments/assets/9545e94a-9a2c-4a46-9a97-34de2d4bddbc)# Webots---Maze Solving Robot Simulation
+# Webots---Maze Solving Robot Simulation
 
 <h1 align="left">Introduction</h1>
 
@@ -40,17 +40,16 @@ The simulation utilized the **e-puck robot**, an ideal platform for academic and
 
 <h1 align="left">Tools and Frameworks</h1>
 
-- **Webots Simulation Software**: To ![webots interface](https://github.com/user-attachments/assets/14249f9b-adf8-4b13-8840-fb256fee98a9)
-design the arena and simulate robot behavior.
+- **Webots Simulation Software**: To design the arena and simulate robot behavior.
 - **Programming Language**: Python
 - **Sensor Utilization**: proximity sensors and encoders
 - **Visual Studio Code (VS Code)**: Used as the primary code editor for writing and debugging Python code in this project.
 <p align="left">
-  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/vscode%20interface.png?raw=true" width="200">
+  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/vscode%20interface.png?raw=true" width="500">
 </p>
 
 <p align="right">
-  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/sensors_and_leds.png?raw=true" width="400">
+  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/webots%20interface.png?raw=true" width="500">
 </p>
 
 <h1 align="left">Final Demonstration</h1>
