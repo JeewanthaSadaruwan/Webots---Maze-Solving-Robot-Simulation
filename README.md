@@ -1,20 +1,41 @@
 # Webots---Maze Solving Robot Simulation
 
-<h1 align="left">Project Overview:</h3>
-I built this project for the **IESL Robogames 2024** competition, university category, organized by the Department of Computer Science and Engineering of the University of Moratuwa and the Institution of Engineers, Sri Lanka (IESL). This competition challenges participants to design and implement innovative robotic solutions that showcase technical proficiency, problem-solving skills, and creativity.
+<h1 align="left">Introduction</h1>
 
-<h1 align="left">Objective:</h3>
+This project was developed for the **IESL RoboGames 2024** competition, under the **University Category**, organized by the **Department of Computer Science and Engineering (CSE), University of Moratuwa**, in collaboration with the **Institution of Engineers, Sri Lanka (IESL).** The RoboGames is an annual robotics competition designed to inspire innovation, foster knowledge sharing, and showcase cutting-edge solutions in robotics engineering.
+
+<h1 align="left">Project Objective:</h1>
+
+The primary objective of this project was to design and program an e-puck robot to successfully navigate a customized Webots simulation arena. The task requirements, as specified in the competition guidelines, included:
+
+- **Arena Design**: Building a 2.5m x 2.5m Webots environment following strict specifications for wall dimensions and spacing, with colored walls representing key waypoints.
+- **Navigation Task**: Programming the robot to visit walls in the specified color sequence: **Red -> Yellow -> Pink -> Brown -> Green.**
+- **Dynamic Starting** Position: Ensuring the robot could complete the task regardless of its initial placement within the arena.
+- **Completion Criteria**: The robot must stop after completing the required sequence.
+
+<h1 align="left">Technical Details</h1>
+
+<h2 align="left">Arena Specifications</h2>
+
+This project features a custom maze arena designed in Webots, adhering to the given specifications. The arena consists of carefully placed wall and floor nodes to create the maze's structure. The maze is intended to be used in robotics simulations, where a robot navigates through the maze to complete specific tasks. The design ensures the maze can be dynamically explored by robots using sensors for wall detection and pathfinding.
+
+- Dimensions: 2.5m x 2.5m grid.
+- Wall Specifications:
+  - Height: 0.1m
+  - Breadth: 0.01m
+  - Length: Multiples of 0.25m
+  - Colors: Red (#FF0000), Yellow (#FFFF00), Pink (#FF00FF), Brown (#A5691E), Green (#00FF00)
 
 
-The main objective of this project was to create a robot capable of navigating a maze dynamically while adhering to specific competition rules. The robot is designed to visit target zones marked with colors (Red → Yellow → Pink → Brown → Green) in the given sequence, regardless of its starting position. Upon completing the task, the robot is programmed to stop automatically.
+<img src="https://github.com/user-attachments/assets/ecd09bc8-bf55-4b36-974f-2a32282720fb" width="400" align="Right" style="margin-right: 20px;">
 
-Features and Capabilities
+<h1 align="left">Robot Platform</h1>
 
-Maze Navigation: The robot utilizes an efficient pathfinding algorithm to dynamically detect and avoid walls using its left, right, and front sensors.
+The simulation utilized the **e-puck robot**, an ideal platform for academic and research purposes due to its built-in sensors and compact design.
 
-Color Detection: Equipped with advanced color detection capabilities, the robot identifies and interacts with specific target zones based on their color.
+<h1 align="left">Tools and Frameworks</h1>
 
-Dynamic Adaptability: The robot can adapt to varying maze layouts, ensuring it completes its task regardless of its starting location.
-
-Stop Condition: Once all target zones are visited in the specified order, the robot halts its operation, signaling task completion.
+- **Webots Simulation Software**: To design the arena and simulate robot behavior.
+- **Programming Language**: Python
+- **Sensor Utilization**: proximity sensors and encoders
 
