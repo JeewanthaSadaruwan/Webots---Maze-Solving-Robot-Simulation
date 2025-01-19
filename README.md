@@ -26,12 +26,18 @@ This project features a custom maze arena designed in Webots, adhering to the gi
   - Length: Multiples of 0.25m
   - Colors: Red (#FF0000), Yellow (#FFFF00), Pink (#FF00FF), Brown (#A5691E), Green (#00FF00)
 
-
-<img src="https://github.com/user-attachments/assets/ecd09bc8-bf55-4b36-974f-2a32282720fb" width="400" align="Right" style="margin-right: 20px;">
+    
+<p align="center">
+  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/Screenshot%202025-01-19%20185511.png?raw=true" width="800">
+</p>
 
 <h1 align="left">Robot Platform</h1>
 
 The simulation utilized the **e-puck robot**, an ideal platform for academic and research purposes due to its built-in sensors and compact design.
+
+<p align="center">
+  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/Screenshot%202025-01-19%20185511.png?raw=true" width="800">
+</p>
 
 <h1 align="left">Tools and Frameworks</h1>
 
