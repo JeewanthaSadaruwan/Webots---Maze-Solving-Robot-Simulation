@@ -45,11 +45,11 @@ design the arena and simulate robot behavior.
 - **Programming Language**: Python
 - **Sensor Utilization**: proximity sensors and encoders
 - **Visual Studio Code (VS Code)**: Used as the primary code editor for writing and debugging Python code in this project.
-<p align="center">
-  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/sensors_and_leds.png?raw=true" width="400">
+<p align="left">
+  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/vscode%20interface.png?raw=true" width="200">
 </p>
 
-<p align="center">
+<p align="right">
   <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/sensors_and_leds.png?raw=true" width="400">
 </p>
 
