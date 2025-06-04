@@ -27,15 +27,16 @@ This project features a custom maze arena designed in Webots, adhering to the gi
   - Colors: Red (#FF0000), Yellow (#FFFF00), Pink (#FF00FF), Brown (#A5691E), Green (#00FF00)
 
 <p align="center">
-  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/Screenshot%202025-01-19%20185511.png?raw=true" width="800">
+  <img src="pictures/maze.png" width="500" alt=""/>
 </p>
+
 
 <h1 align="left">Robot Platform</h1>
 
 The simulation utilized the **e-puck robot**, an ideal platform for academic and research purposes due to its built-in sensors and compact design.
 
 <p align="center">
-  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/sensors_and_leds.png?raw=true" width="400">
+  <img src="pictures/epuck.png" width="500" alt=""/>
 </p>
 
 <h1 align="left">Tools and Frameworks</h1>
@@ -44,13 +45,15 @@ The simulation utilized the **e-puck robot**, an ideal platform for academic and
 - **Programming Language**: Python
 - **Sensor Utilization**: proximity sensors and encoders
 - **Visual Studio Code (VS Code)**: Used as the primary code editor for writing and debugging Python code in this project.
-<p align="left">
-  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/vscode%20interface.png?raw=true" width="500">
+<p align="center">
+  <img src="pictures/code.png" width="500" alt=""/>
 </p>
 
-<p align="right">
-  <img src="https://github.com/JeewanthaSadaruwan/Webots---Maze-Solving-Robot-Simulation/blob/main/webots%20interface.png?raw=true" width="500">
+
+<p align="center">
+  <img src="pictures/webot.png" width="500" alt=""/>
 </p>
+
 
 <h1 align="left">Final Demonstration</h1>
 
